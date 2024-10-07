@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment
-                          .spaceEvenly, // توزيع المساحة بالتساوي
+                          .spaceEvenly,
                       children: [
                         StatCard(
                           title: 'الأطفال',
@@ -112,7 +112,7 @@ class HomePage extends StatelessWidget {
                     ),
                     Row(
                         mainAxisAlignment: MainAxisAlignment
-                            .spaceEvenly, // توزيع المساحة بالتساوي
+                            .spaceEvenly,
                         children: [
                           StatCard(
                             title: 'الأذونات',
@@ -153,7 +153,12 @@ class HomePage extends StatelessWidget {
                           title: 'المستقبل المشرق',
                           description:
                               'اليوم قمنا بالاحتفال بالأجيال الجديدة في حضانة الحياة وتمنَّى لكم عام سعيد 💖',
-                          imageUrl: null,
+                        ),
+                        PostCard(
+                          title: 'المستقبل المشرق',
+                          description:
+                          'اليوم قمنا بالاحتفال بالأجيال الجديدة في حضانة الحياة وتمنَّى لكم عام سعيد 💖',
+
                         ),
                       ],
                     ),
